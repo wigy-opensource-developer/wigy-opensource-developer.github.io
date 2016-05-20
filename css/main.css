@@ -1,0 +1,104 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this file,
+ * You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.2em;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+#container {
+  max-width: 30em;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 1.6em;
+  line-height: 1.25em;
+}
+
+h2 {
+  font-size: 1.2em;
+  line-height: 1.51em;
+}
+
+h3 {
+  font-size: 1em;
+  line-height: 1.66em;
+}
+
+a {
+  text-decoration: underline;
+  font-weight: normal;
+}
+
+a,
+a:visited,
+a:hover,
+a:active {
+  color: #0095dd;
+}
+
+p,
+code,
+pre,
+blockquote,
+ul,
+ol,
+li,
+figure {
+  margin: -10px -10px 20px -10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+p > img:only-child,
+p > a:only-child > img:only-child,
+figure img {
+  display: block;
+}
+
+img[moz-reader-center] {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  font-size: 0.9em;
+  line-height: 1.48em;
+  font-style: italic;
+}
+
+code,
+pre {
+  white-space: pre-wrap;
+}
+
+blockquote {
+  padding: 0;
+  padding-inline-start: 16px;
+}
+
+ul,
+ol {
+  padding: 0;
+}
+
+ul {
+  padding-inline-start: 30px;
+  list-style: disc;
+}
+
+ol {
+  padding-inline-start: 30px;
+  list-style: decimal;
+}
