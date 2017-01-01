@@ -1,3 +1,4 @@
+theme: jekyll-theme-midnight
 name: Wigy's contributions
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
